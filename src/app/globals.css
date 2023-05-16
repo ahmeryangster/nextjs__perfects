@@ -41,11 +41,6 @@
   margin: 0;
 }
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
 
 
 
@@ -58,4 +53,8 @@ a {
   html {
     color-scheme: dark;
   }
+}
+.hero_main{
+  background: linear-gradient(335deg, rgba(161,200,238,1) 3%, rgba(235,210,246,1) 92%);
+  height: 240px;
 }
