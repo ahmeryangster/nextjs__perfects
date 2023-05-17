@@ -1,10 +1,11 @@
 import React from 'react'
-import styles from '../page.module.css'
+import HeroSection from '../components/HeroSection'
+
 
 const page = () => {
   return (
     <>
-    <h1 className={styles.ahmer}>Contact Us</h1>
+    <HeroSection/>
     </>
   )
 }

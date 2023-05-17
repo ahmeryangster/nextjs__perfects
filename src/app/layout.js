@@ -1,8 +1,7 @@
 'use client'
 import Header from './components/Header'
 import './globals.css'
-import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap/dist/js/bootstrap.min.js'
+
 
 import { Poppins} from 'next/font/google'
 

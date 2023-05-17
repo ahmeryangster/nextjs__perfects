@@ -1,5 +1,26 @@
 :root {
-  --back-color:red;
+  --back-color:#0f0f0f;
+  --main-primary-color: #c80308;
+}
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+blockquote {
+    margin: 0;
+    padding: 0;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -35,11 +56,6 @@
   }
 }
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
 
 
 
@@ -48,13 +64,22 @@ a {
   color: inherit;
   text-decoration: none;
 }
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+.hero_heading{
+  font-size: 2.3rem;
+  font-weight: 600;
 }
 .hero_main{
   background: linear-gradient(335deg, rgba(161,200,238,1) 3%, rgba(235,210,246,1) 92%);
-  height: 240px;
+  padding: 20px;
+  /* height: 240px; */
+}
+.hero_explore_btn{
+  border-radius: 15px;
+    border: 1px solid var(--main-primary-color);
+    background-color: var(--back-color);
+    color: #fff;
+    padding: 5px 15px;
+}
+.hero_image{
+  filter: opacity(0.8);
 }

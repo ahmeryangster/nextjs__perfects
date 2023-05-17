@@ -2,6 +2,8 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React, { useState } from 'react'
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/js/bootstrap.min.js'
 
 
 const Header = () => {
@@ -31,6 +33,10 @@ const Header = () => {
           <li className="nav-item">
             {/* <a className="nav-link" href="#">Link</a> */}
             <Link href="/about" className="nav-link">About</Link>
+          </li>
+          <li className="nav-item">
+            {/* <a className="nav-link" href="#">Link</a> */}
+            <Link href="/movie" className="nav-link">Movie</Link>
           </li>
           <li className="nav-item dropdown">
             <Link className="nav-link dropdown-toggle" href="/movie" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">

@@ -1,12 +1,13 @@
 import React from 'react'
-import styles from '../page.module.css'
+import HeroSection from '../components/HeroSection'
 
-const page = () => {
+
+const about = () => {
   return (
     <>
-    <h1 className={styles.ahmer}>About Us</h1>
+    <HeroSection title="Our Story"/>
     </>
   )
 }
 
-export default page
+export default about
