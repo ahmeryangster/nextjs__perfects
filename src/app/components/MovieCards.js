@@ -5,7 +5,8 @@ import React from 'react'
 const MovieCards = (currEle) => {
     // console.log(currEle.id)
     const {id, title ,synopsis} = currEle.jawSummary;
-    console.log(currEle.jawSummary)
+    // console.log(id)
+    // console.log(currEle.jawSummary)
   return (
 
             <div className='col-md-3 mb-2'>
@@ -21,7 +22,7 @@ const MovieCards = (currEle) => {
         <div className="card-body">
           <h5 className="card-title">{`${title.substring(0,18)}...`}</h5>
           <p className="card-text">{`${synopsis.substring(0,50)}...`}</p>
-          <Link href="#" className="btn btn-primary">Read More</Link>
+          <Link href={`/movie/${id}`} className="btn btn-primary">Read More</Link>
         </div>
       </div>
             </div>

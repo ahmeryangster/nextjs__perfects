@@ -1,5 +1,6 @@
 import React from "react";
 import MovieCards from "../components/MovieCards";
+import Link from "next/link";
 
 const movie = async () => {
   // const url = process.env.RAPID_KEY;
@@ -43,7 +44,10 @@ const options = {
               {main_data.map((currEle) => {
                 return <MovieCards key={currEle.id} {...currEle} />;
               })}
+              
             </div>
+          <Link href="/movie/adsdas" className="btn btn-primary">Read More</Link>
+
           </div>
         </div>
       </div>
