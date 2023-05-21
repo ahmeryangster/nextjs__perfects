@@ -46,8 +46,6 @@ const options = {
               })}
               
             </div>
-          <Link href="/movie/adsdas" className="btn btn-primary">Read More</Link>
-
           </div>
         </div>
       </div>
