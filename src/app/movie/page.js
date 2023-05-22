@@ -9,6 +9,7 @@ const movie = async () => {
   //   method: "GET",
   // };
 
+  await new Promise(resolve => setTimeout(resolve, 2000));
 
 
   const url = 'https://netflix54.p.rapidapi.com/search/?query=stranger&offset=0&limit_titles=50&limit_suggestions=20&lang=en';
@@ -21,10 +22,12 @@ const options = {
 };
 
 
+  
 
   const res = await fetch(url, options);
   const data = await res.json();
   const main_data = data.titles;
+  
   console.log(main_data);
 
 

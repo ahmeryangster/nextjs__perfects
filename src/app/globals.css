@@ -71,7 +71,8 @@ a {
 }
 .hero_main{
   background: var(--linear-background);
-  padding: 20px;
+  padding: 50px 20px;
+  position: relative;
   /* height: 240px; */
 }
 .hero_explore_btn{
@@ -94,4 +95,99 @@ a {
 }
 .movie_details_title{
   color: var(--main-primary-color);
+}
+/* --Loading--Css-- */
+.loading_main{
+  width: 100%;
+  height: 80vh;
+  display: grid;
+  place-items: center;
+}
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  border-color: var(--main-primary-color) transparent var(--main-primary-color) transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.custom-shape-divider-bottom-1684749746 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1684749746 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 60px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1684749746 .shape-fill {
+  fill: #FFFFFF;
+}
+/* ------ContactUs-Page------- */
+.main_contact_card{
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  padding: 15px 10px;
+  text-align: center;
+  border-radius: 8px;
+}
+.contact__icon{
+  color: var(--main-primary-color);
+  font-size: 25px;
+}
+.contact__pp{
+  font-size: 14px;
+}
+.contact__btn{
+  font-size: 13px;
+  color: var(--main-primary-color);
+  font-weight: 500;
+  cursor: pointer;
+  display: inline-block;
+  transition: all cubic-bezier(0.57, 0, 0.53, 0.95) 0.3s;
+}
+.contact__btn:hover{
+  transform: translateX(10px);
+}
+.contactUs_head{
+  text-align: center;
+  color: var(--main-primary-color);
+  text-shadow: -2px 0px 2px #ae2d30;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.4rem;
+  margin-bottom: 15px;
+}
+.from_you{
+  color: var(--back-color);
+}
+.contact_form_main{
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  border-radius: 8px;
+  padding: 15px;
 }
