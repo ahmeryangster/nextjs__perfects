@@ -55,17 +55,17 @@ const ContactForm = () => {
                 <form onSubmit={handleSubmit}>
                   <div className="contact_form_main">
                     <div className="mb-3">
-                      <label htmlFor="enterName" className="form-label">
+                      <label htmlFor="username" className="form-label">
                         Enter Your Name
                       </label>
                       <input
                         type="text"
-                        name="enterName"
+                        name="username"
                         className="form-control"
-                        id="enterName"
+                        id="username"
                         required
                         onChange={handleChange}
-                        value={user.enterName}
+                        value={user.username}
                         placeholder="Enter Your Name"
                       />
                     </div>
