@@ -3,7 +3,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap/dist/js/bootstrap.min.js'
+// import 'bootstrap/dist/js/bootstrap.min.js'
 
 
 const Header = () => {
