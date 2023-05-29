@@ -1,9 +1,9 @@
 
+// 'use client'
 import Image from 'next/image'
 import Link from 'next/link'
-import React, { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap/dist/js/bootstrap.min.js'
+// import 'bootstrap/dist/js/bootstrap.min.js'
 
 
 const Header = () => {

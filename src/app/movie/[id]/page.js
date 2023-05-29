@@ -29,8 +29,6 @@ const page = async ({ params }) => {
   const cast = main_data.cast;
   const genres = main_data.genres;
 
-  console.log(cast);
-
   return (
     <>
       <div className="container mt-4">

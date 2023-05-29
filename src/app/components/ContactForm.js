@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 const ContactForm = () => {
   const [status, setStatus] = useState(null);
     const [user, setUser] = useState({
-        enterName: "",
+      username: "",
         email: "",
         phone: "",
         message: "",
@@ -44,7 +44,7 @@ const ContactForm = () => {
             }
 
         }catch (e) {
-            console.log(e)
+            
         }
 
     }
@@ -111,7 +111,7 @@ const ContactForm = () => {
                         value={user.message}
                         onChange={handleChange}
                         placeholder="Enter Your Message"
-                        defaultValue={""}
+                        
                       />
                     </div>
                     <div className="mb-3">

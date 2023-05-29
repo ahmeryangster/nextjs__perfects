@@ -2,7 +2,7 @@ import React from 'react'
 import HeroSection from '../components/HeroSection'
 
 
-const about = () => {
+const About = () => {
   return (
     <>
     <HeroSection title="Our Story"/>
@@ -10,4 +10,4 @@ const about = () => {
   )
 }
 
-export default about
+export default About

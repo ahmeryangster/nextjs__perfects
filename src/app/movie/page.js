@@ -2,7 +2,7 @@ import React from "react";
 import MovieCards from "../components/MovieCards";
 import Link from "next/link";
 
-const movie = async () => {
+const Movie = async () => {
   // const url = process.env.RAPID_KEY;
   // const url = "https://dummyapi.online/api/movies";
   // const options = {
@@ -28,15 +28,7 @@ const options = {
   const data = await res.json();
   const main_data = data.titles;
   
-  console.log(main_data);
 
-
-  
-
-
-  // fetch('https://dummyapi.online/api/movies')
-  //       .then(response => response.json())
-  //       .then(json => console.log(json))
 
   return (
     <>
@@ -56,4 +48,4 @@ const options = {
   );
 };
 
-export default movie;
+export default Movie;

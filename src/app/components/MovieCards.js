@@ -3,13 +3,10 @@ import Link from 'next/link';
 import React from 'react'
 
 const MovieCards = (currEle) => {
-    // console.log(currEle.id)
     const {id, title ,synopsis} = currEle.jawSummary;
-    // console.log(id)
-    // console.log(currEle.jawSummary)
   return (
 
-            <div className='col-md-3 mb-2'>
+            <div key={id} className='col-md-3 mb-2'>
             <div className="card">
         {/* <img src="..." className="card-img-top" alt="..." /> */}
         <Image

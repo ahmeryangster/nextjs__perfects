@@ -2,7 +2,7 @@ import React from "react";
 import ContactCard from "../components/ContactCard";
 import ContactForm from "../components/ContactForm";
 
-const page = () => {
+const Contact = () => {
 
 
   return (
@@ -28,4 +28,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Contact;

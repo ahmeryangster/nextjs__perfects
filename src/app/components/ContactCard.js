@@ -32,7 +32,7 @@ const ContactCard = () => {
         <div className='row'>
             {contactDetails.map((currEle,index)=>{
                 return (
-                    <div className='col-md-4 mb-3'>
+                    <div key={index} className='col-md-4 mb-3'>
                     <div className='main_contact_card'>
                         {currEle.icon}
                         <p className='fw-bold my-2'>{currEle.title}</p>
